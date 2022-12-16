@@ -24,18 +24,18 @@ h1{
   text-transform: uppercase;
   font-family: 'Fredoka One', cursive;
   color: #EB455F;
-  font-size: 60px;
+  font-size: 45px;
   margin-left: 450px;
 }
 .list{
   display: flex;
   align-items: center;
   margin-top: 250px;
-  margin-right: 250px;
+  margin-right: 200px;
 }
 .main{
   background-color: #EB455F;
-  width: 550px;
+  width: 500px;
   height: 50vh;
   border-radius: 20px;
   border: #F9B5D0 3px solid
