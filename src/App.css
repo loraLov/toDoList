@@ -1,38 +1,71 @@
-.App {
-  text-align: center;
+.crossed{
+  background-color: #F9B5D0;
+  text-decoration: line-through 2px #D23369;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+li, ul{
+list-style-type: none;
+margin-top:10px;
+font-family: 'Grape Nuts', cursive;
+font-size: 20px;
+font-weight: bolder;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.container{
+  display: flex;
+  justify-content: space-between;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.picture{
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px;
+  margin-left: 70px;
+}
+h1{
+  align-self: center;
+  text-transform: uppercase;
+  font-family: 'Fredoka One', cursive;
+  color: #EB455F;
+  font-size: 60px;
+  margin-left: 450px;
+}
+.list{
+  display: flex;
+  align-items: center;
+  margin-top: 250px;
+  margin-right: 250px;
+}
+.main{
+  background-color: #EB455F;
+  width: 550px;
+  height: 50vh;
+  border-radius: 20px;
+  border: #F9B5D0 3px solid
+}
+.block{
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
+input{
+  padding: 15px;
+  width: 70%;
+  margin-top: 30px;
+  border-radius: 20px;
+  border: #F9B5D0 3px solid;
+  
 
-.App-link {
-  color: #61dafb;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button{
+  padding: 12px;
+  width: 40%;
+  margin-top: 20px;
+  border-radius: 20px;
+  border: none;
+  font-family: 'Fredoka One', cursive;
+  font-size: 15px;
+}
+.add{
+  background-color: #97DECE;
+}
+.delete{
+background-color:#FFACC7;
 }
